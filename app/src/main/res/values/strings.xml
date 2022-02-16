@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">TodoList</string>
+
+    <!--    Title Fragment-->
+    <string name="title_fragment_complete">Complete Task</string>
+    <string name="title_fragment_all">All Task</string>
+    <string name="title_fragment_incomplete">InComplete Task</string>
+
+    <!--    Home-->
+    <string name="bot_nav_complete">Complete</string>
+    <string name="bot_nav_incomplete">Incomplete</string>
+    <string name="bot_nav_all">All</string>
+
+    <!--    FragmentAll-->
+    <string name="fragment_all_create_task"><b>Create task</b></string>
+    <string name="fragment_all_dialog_title">Create task</string>
+    <string name="fragment_all_dialog_hint">Write task here ...</string>
+    <string name="fragment_all_dialog_submit">SUBMIT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

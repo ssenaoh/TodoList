@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@drawable/border_all_small">
+        <TextView
+            android:id="@+id/dialog_create_task_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_all_dialog_title"
+            android:textSize="@dimen/title_normal"
+            android:layout_alignParentTop="true" />
+
+        <RelativeLayout
+            android:id="@+id/dialog_create_task_rel"
+            android:layout_below="@id/dialog_create_task_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:id="@+id/dialog_create_task_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_toStartOf="@id/dialog_create_task_che"
+                android:hint="@string/fragment_all_dialog_hint"
+                android:textSize="@dimen/title_small" />
+
+            <CheckBox
+                android:id="@+id/dialog_create_task_che"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/dialog_create_task_tev_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dialog_create_task_rel"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40dp"
+            android:text="@string/fragment_all_dialog_submit"
+            android:textColor="@color/blue_light"
+            android:textSize="@dimen/title_small" />
+    </RelativeLayout>
+</layout>
